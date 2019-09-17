@@ -1,6 +1,11 @@
 <template>
   <div class="showPage">
-    展示壮壮的数据
+    <p>展示壮壮的数据</p>
+    <label>
+      <router-link to="/showjsondata">
+        <button>showData</button>
+      </router-link>
+    </label>
   </div>
 </template>
 
@@ -23,5 +28,5 @@
     -webkit-background-size: cover;
     background-size: cover;
   }
-  
+
 </style>
